@@ -4,8 +4,8 @@
 
 #changeBK {
 	position: fixed;
-	bottom: 0px;
-	left: 50%;
+	bottom: 50px;
+	left: 42%;
 }
 
 .my1{
@@ -36,7 +36,7 @@
 	z-index: -1;
 }
 
-/* ¶Ô»°¿ò */
+/* Â¶Ã”Â»Â°Â¿Ã² */
 .dialog {
 	display: none;
 	position: absolute;
