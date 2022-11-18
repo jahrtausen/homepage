@@ -1,0 +1,73 @@
+* {
+	font-size: 40px;
+}
+
+#changeBK {
+	position: fixed;
+	bottom: 0px;
+	left: 50%;
+}
+
+.my1{
+	list-style-type:none;
+        position:relative;
+        left:10%;
+}
+.li1{
+	float:left
+}
+
+.part {
+	width: 100%;
+}
+
+.part select {
+	width: 70%;
+}
+
+.part legend {
+	color: rgb(255, 0, 0);
+}
+
+.background {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+/* ¶Ô»°¿ò */
+.dialog {
+	display: none;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	z-index: 10;
+	width: 400px;
+	height: 200px;
+}
+
+.title {
+	width: 400px;
+	margin: 0px auto;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
+	text-align: center;
+}
+
+.close {
+	float: right;
+	color: rgb(255,255,255);
+}
+
+.close:hover {
+	cursor: pointer;
+}
+
+.content {
+	width: 400px;
+	margin: 0px auto;
+	text-align: center;
+	color: rgb(0, 255, 255);
+}
