@@ -1,0 +1,15 @@
+﻿<script>
+function closePage(){
+	if(navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf("Chrome") != -1){
+		//alert("第一种");
+	        window.top.location.href = "../InternetIndex.html";
+        	window.top.close();
+	}else{
+		//alert("第二种");
+	        //window.top.opener = null;
+        	window.top.open("../InternetIndex.html", "_blank","");
+        	window.top.close();
+	}
+}
+</script>
+<a href="" onclick="closePage()">返回导航页面</a>
